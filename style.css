@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: rgb(1, 31, 50);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    margin: 40px;
+    border: 6px rgb(225, 201, 250) dashed;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left: 400px;
+}
