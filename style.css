@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(1, 31, 50);
+    background-color:rgb(234, 155, 38);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -14,18 +14,43 @@ body{
 
 .content{
     margin: 40px;
-    border: 6px rgb(225, 201, 250) dashed;
+    border: 6px rgb(20, 0, 54) dashed;
     width: 90vw;
     height: 90vh;
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(149, 178, 246);
 }
 
-.card{
+#card1{
     width: 350px;
     height: 500px;
     background-color: white;
-    margin-left: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cabin Sketch";
+    color: rgb(126, 58, 6);
+    font-size: xx-large;
+    box-shadow: 3px rgb(16, 0, 46);
+    padding: 15px;
 }
+
+p{
+    color: rgb(240, 196, 113);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Quicksand";
+    font-size: large;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
