@@ -18,7 +18,7 @@ body{
     width: 90vw;
     height: 90vh;
     border-radius: 25px;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: rgb(149, 178, 246);
@@ -39,7 +39,7 @@ body{
 }
 
 p{
-    color: rgb(240, 196, 113);
+    color: rgb(70, 38, 3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,3 +54,23 @@ h1{
     justify-content: center;
 }
 
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(20, 0, 54);
+    color: white;
+    border-radius: 10px;
+    font-family: "Ubuntu";
+    font-size: large;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+
+.cakey{
+    background-color: rgb(246, 237, 76);
+}
