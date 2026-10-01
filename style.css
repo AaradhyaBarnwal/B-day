@@ -75,3 +75,17 @@ h1{
     background-color: rgb(246, 237, 76);
 }
 
+.cake img{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    align-self: centre;
+    justify-self: centre;
+}
+
+.con{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
