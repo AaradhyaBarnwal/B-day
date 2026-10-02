@@ -73,19 +73,101 @@ h1{
 
 .cakey{
     background-color: rgb(246, 237, 76);
+    margin: 10px;
+    padding: 0;
 }
 
 .cake img{
-    width: 600px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
     display: flex;
     align-self: centre;
     justify-self: centre;
+    margin-bottom: 30px;
+}
+
+.cake h1{
+    font-family: "Roboto";
+    color: rgb(7, 7, 82);
+    text-shadow: 1px 1px rgb(1, 38, 52);
+    margin-bottom: 50px;
+    font-weight: 350;
+}
+
+.cake{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .con{
     display: grid;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    align-self: center;
+    justify-self: center;
+}
+
+.btnn{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(118, 175, 235);
+    color: rgb(1, 1, 57);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: "Love you like a sister";
+}
+
+.cloud{
+    width: 551px;
+    height: 267px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.gift{
+    background-color: rgb(128, 178, 248);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift h1{
+    font-family: "Dynapuff";
+    color: rgb(9, 35, 1);
+    margin: 25px;
+}
+
+.column{
+    background-color: rgb(186, 128, 248);
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.parent{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
