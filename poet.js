@@ -9,7 +9,7 @@ let poet = ["when the sun dances on the sea, leaving a message through the waves
 function yo(params) {
     setInterval(() => {
     seasy.classList.remove('seashell');
-},6000);
+},4000);
 }
 
 
