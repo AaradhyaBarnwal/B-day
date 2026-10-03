@@ -153,9 +153,10 @@ h1{
     width: 300px;
     height: 350px;
     border-radius: 25px;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+    font-family: "Inter";
 }
 
 .row{
@@ -170,4 +171,52 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.column img{
+    width: 200px;
+    height: 200px;
+}
+
+.column h2{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+}
+
+.imseashell img{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.poet{
+    background-color: lightblue;
+}
+
+.conta{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.imseashell{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.imseashell button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: 200;
+    font-size: large;
+    border-radius: 15px;
+    background-color: rgb(4, 4, 70);
+    color: blanchedalmond;
 }
